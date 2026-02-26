@@ -14,7 +14,12 @@ Saída: Apresentar a mensagem "A=" seguido pelo valor da variável area, conform
 exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão
 (double).
 """
+raio = float(input())
 
+pi = 3.14159
+area = pi * raio ** 2
+
+print("A={:.4f}".format(area))
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1002
 
 # Escreva sua solução abaixo
